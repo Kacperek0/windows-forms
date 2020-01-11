@@ -135,5 +135,10 @@ namespace FormsCalculator
                 panel1.Visible = true;
             }
         }
+
+        private void Rectangle_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

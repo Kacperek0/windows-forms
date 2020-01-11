@@ -217,6 +217,7 @@
             this.Controls.Add(this.SideA_textBox);
             this.Name = "Rectangle";
             this.Text = "Rectangle";
+            this.Load += new System.EventHandler(this.Rectangle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

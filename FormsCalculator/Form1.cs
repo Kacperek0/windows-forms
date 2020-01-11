@@ -24,7 +24,7 @@ namespace FormsCalculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -39,6 +39,13 @@ namespace FormsCalculator
             cm.ShowDialog();
            
 
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            MatrixCreator mxc = new MatrixCreator();
+            mxc.ShowDialog();
         }
     }
 }

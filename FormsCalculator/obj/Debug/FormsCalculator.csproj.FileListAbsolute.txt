@@ -9,3 +9,4 @@ C:\Users\kacper\source\repos\FormsCalculator\FormsCalculator\obj\Debug\FormsCalc
 C:\Users\kacper\source\repos\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.pdb
 C:\Users\kacper\source\repos\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.CalculatorMenu.resources
 C:\Users\kacper\source\repos\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.Rectangle.resources
+C:\Users\kacper\source\repos\FormsCalculator\FormsCalculator\obj\Debug\FormsCalculator.MatrixCreator.resources
