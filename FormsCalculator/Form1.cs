@@ -47,5 +47,19 @@ namespace FormsCalculator
             MatrixCreator mxc = new MatrixCreator();
             mxc.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Tree tree = new Tree();
+            tree.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            BinCalc bc = new BinCalc();
+            bc.ShowDialog();           
+        }
     }
 }

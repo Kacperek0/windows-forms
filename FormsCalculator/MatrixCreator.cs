@@ -199,5 +199,18 @@ namespace FormsCalculator
             }
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 menu = new Form1();
+            menu.ShowDialog();
+            
+        }
     }
 }

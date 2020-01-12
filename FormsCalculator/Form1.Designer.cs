@@ -41,6 +41,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.areaCalc = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,13 +80,13 @@
             // clearAllToolStripMenuItem
             // 
             this.clearAllToolStripMenuItem.Name = "clearAllToolStripMenuItem";
-            this.clearAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clearAllToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.clearAllToolStripMenuItem.Text = "Clear all";
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
@@ -101,19 +103,19 @@
             // squareToolStripMenuItem
             // 
             this.squareToolStripMenuItem.Name = "squareToolStripMenuItem";
-            this.squareToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.squareToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.squareToolStripMenuItem.Text = "Square";
             // 
             // rectangeToolStripMenuItem
             // 
             this.rectangeToolStripMenuItem.Name = "rectangeToolStripMenuItem";
-            this.rectangeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rectangeToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.rectangeToolStripMenuItem.Text = "Rectange";
             // 
             // circleToolStripMenuItem
             // 
             this.circleToolStripMenuItem.Name = "circleToolStripMenuItem";
-            this.circleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.circleToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.circleToolStripMenuItem.Text = "Circle";
             // 
             // optionsToolStripMenuItem
@@ -152,11 +154,33 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(129, 176);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(87, 46);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Christmas Tree";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(129, 228);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(87, 46);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "To binary";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 462);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.areaCalc);
             this.Controls.Add(this.label1);
@@ -188,6 +212,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button areaCalc;
         private System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button3;
+        public System.Windows.Forms.Button button4;
     }
 }
 

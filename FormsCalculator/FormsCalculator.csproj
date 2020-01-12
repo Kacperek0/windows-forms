@@ -52,6 +52,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BinCalc.Designer.cs">
+      <DependentUpon>BinCalc.cs</DependentUpon>
+    </Compile>
     <Compile Include="CalculatorMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,15 @@
     <Compile Include="Rectangle.Designer.cs">
       <DependentUpon>Rectangle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tree.Designer.cs">
+      <DependentUpon>Tree.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BinCalc.resx">
+      <DependentUpon>BinCalc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CalculatorMenu.resx">
       <DependentUpon>CalculatorMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +113,9 @@
     </Compile>
     <EmbeddedResource Include="Rectangle.resx">
       <DependentUpon>Rectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tree.resx">
+      <DependentUpon>Tree.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
