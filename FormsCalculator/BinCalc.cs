@@ -24,16 +24,124 @@ namespace FormsCalculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ushort dec;
+            int dec;
+            int a, b, c;
+            List<int> binary = new List<int>();
 
-            try
+
+
+            if (int.TryParse(textBox1.Text, out dec) && dec < 256)
             {
-               dec = ushort.Parse(textBox1.Text);
+
+
+
+
+
+                a = dec;
+
+                if (a % 2 == 1)
+
+                {
+
+                    c = a / 2;
+
+                    binary.Add(1);
+
+                    a = c;
+
+                }
+
+                else
+
+                {
+
+                    c = a / 2;
+
+                    binary.Add(0);
+
+                    a = c;
+
+                }
+
+                while (c != 0)
+
+                {
+
+                    if (a % 2 == 1)
+
+                    {
+
+                        c = a / 2;
+
+                        binary.Add(1);
+
+                        a = c;
+
+                    }
+
+                    else
+
+                    {
+
+                        c = a / 2;
+
+                        binary.Add(0);
+
+                        a = c;
+
+                    }
+
+                }
+
+
+
+                binary.Reverse();
+
+
+
+                StringBuilder sb = new StringBuilder();
+
+                foreach (var item in binary)
+
+                {
+
+                    sb.AppendFormat(item.ToString());
+
+                }
+
+
+
+                textBox2.Text = sb.ToString();
+
+                label2.Text = "Correct value";
+
+                label2.ForeColor = Color.DarkGreen;
             }
-            catch (Exception)
+            else
             {
+                label2.Text = "Please use value in range form 0 to 255";
+                label2.ForeColor = Color.DarkRed;
+            }
 
-                throw;
+                
+            
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure?", "Back", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                Form1 cm = new Form1();
+                cm.ShowDialog();
             }
         }
     }

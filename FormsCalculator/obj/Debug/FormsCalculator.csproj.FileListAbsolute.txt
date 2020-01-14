@@ -23,3 +23,4 @@ C:\Users\kacper\Documents\windows-forms\FormsCalculator\obj\Debug\FormsCalculato
 C:\Users\kacper\Documents\windows-forms\FormsCalculator\obj\Debug\FormsCalculator.csproj.GenerateResource.cache
 C:\Users\kacper\Documents\windows-forms\FormsCalculator\obj\Debug\FormsCalculator.exe
 C:\Users\kacper\Documents\windows-forms\FormsCalculator\obj\Debug\FormsCalculator.pdb
+C:\Users\kacper\Documents\windows-forms\FormsCalculator\obj\Debug\FormsCalculator.BinCalc.resources

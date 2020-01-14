@@ -84,6 +84,12 @@
     <Compile Include="Rectangle.Designer.cs">
       <DependentUpon>Rectangle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Square.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Square.Designer.cs">
+      <DependentUpon>Square.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tree.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </Compile>
     <EmbeddedResource Include="Rectangle.resx">
       <DependentUpon>Rectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Square.resx">
+      <DependentUpon>Square.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tree.resx">
       <DependentUpon>Tree.cs</DependentUpon>

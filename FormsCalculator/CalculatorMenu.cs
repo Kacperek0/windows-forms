@@ -22,5 +22,12 @@ namespace FormsCalculator
             Rectangle rtg = new Rectangle();
             rtg.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Square sq = new Square();
+            sq.ShowDialog();
+        }
     }
 }
