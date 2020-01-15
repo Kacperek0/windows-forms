@@ -102,7 +102,7 @@ namespace FormsCalculator
         private void SideB_textBox_TextChanged(object sender, EventArgs e)
         {
             int b;
-            if (int.TryParse(SideA_textBox.Text, out b) && b > 0)
+            if (int.TryParse(SideB_textBox.Text, out b) && b > 0)
             {
                 label2.Text = "Correct value";
                 panel1.Height = b;
